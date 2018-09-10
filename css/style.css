@@ -605,6 +605,7 @@ body
   margin-left: 10%;
   margin-right: 10%;
   grid-area: one;
+  opacity: 0;
 }
 
 
