@@ -426,6 +426,9 @@ body
   font-size: 22px;
 }
 
+.hideOnDesktop {
+  opacity: 0;
+}
 
 .mobileWine {
   display: none;
