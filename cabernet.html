@@ -68,7 +68,7 @@ $(window).load(function() {
 
 <div class="grid-container">
 
-<section class="mobileWineBlock hideOnDesktop">
+<section class="mobileWineBlock hideOnDesktop" id="wineMobile">
   <p><span class="year">2014</span><br> 
       <span class="blend">CABERNET SAUVIGNON</span>
       <br>
@@ -188,6 +188,7 @@ setTimeout(delay1, 1500);
 
 function delay1() {
 	document.getElementById('merlotText').classList.add("fade");
+    document.getElementById('wineMobile').classList.add("fade");
 };
 
 setTimeout(delay2, 2000);
