@@ -547,7 +547,7 @@ body
   display: block;
 }
 
-@media (min-width: 1000px) and (max-width: 1370px) {
+@media (min-width: 1000px) and (max-width: 1100px) {
 
   #wineBottleContainer {
     display: none;
